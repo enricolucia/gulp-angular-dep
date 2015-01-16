@@ -55,3 +55,6 @@ gulp.task('default', function() {
 
 #####0.0.4
 - updated README.md on npm
+
+#####0.0.5
+- updated README.md and index.js typo
