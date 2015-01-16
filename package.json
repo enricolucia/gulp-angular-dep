@@ -1,6 +1,6 @@
 {
   "name": "gulp-angular-dep",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "dynamic angular bower dependencies module",
   "main": "index.js",
   "scripts": {
