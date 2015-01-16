@@ -38,8 +38,8 @@ gulp.task('default', function() {
        directory: './bower_components',
        //pick minified version from bower folders
        minified: true,
-       //esclude files from stream
-       esclude: ['arg1','arg2','arg3', .....]
+       //exclude files from stream
+       exclude: ['arg1','arg2','arg3', .....]
  })
     .pipe(gulp.dest('path/'))
 });

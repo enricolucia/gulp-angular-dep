@@ -18,12 +18,12 @@ var handleError = function(message) {
 //       cwd: './',                           //
 //       directory: './bower_components',     //
 //       minified: true,                      //
-//       esclude: ['angular-first',..,]       //
+//       exclude: ['angular-first',..,]       //
 // };                                         //
 //--------------SAMPLE CONFIG-----------------//
 
 module.exports = function (opts) {
-  opts = opts || {esclude: []};
+  opts = opts || {exclude: []};
   opts.cwd = opts.cwd ?  path.join(process.cwd(), opts.cwd) : process.cwd();
 
   if (!opts.directory) {
@@ -53,7 +53,7 @@ module.exports = function (opts) {
       // add dependencies by repeat the step
       if(!!dependencies){
         _.each(dependencies, function(value, key){
-          if(opts.esclude.indexOf(key) === -1 && key.match(/^(angular)/)[0]){
+          if(opts.exclude.indexOf(key) === -1 && key.match(/^(angular)/)[0]){
             addPackage(key);
           }
         });
@@ -67,7 +67,7 @@ module.exports = function (opts) {
 
     // calculate the order of packages
     _.each(bowerPackages, function(value, key){
-      if(opts.esclude.indexOf(key) === -1){ // add to packagesOrder if it's not in exclude
+      if(opts.exclude.indexOf(key) === -1){ // add to packagesOrder if it's not in exclude
         addPackage(key);
       }
     });
