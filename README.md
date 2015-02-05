@@ -1,6 +1,8 @@
 # gulp-angular-dep
 > Configurable dynamic install angular Bower dependencies.
 
+# DEPRECATED
+Use instead gulp-framework-dep: [npm] or [github]
 ## Usage
 
 First, install `gulp-angular-dep` as a development dependency:
@@ -45,7 +47,8 @@ gulp.task('default', function() {
 });
 ```
 
-
+[github]:https://github.com/enricolucia/gulp-framework-dep
+[npm]:https://www.npmjs.com/package/gulp-framework-dep
 
 
 ## Changelog
