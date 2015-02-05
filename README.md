@@ -1,4 +1,4 @@
-# gulp-angular-dep
+# gulp-angular-dep [![Code Climate](https://codeclimate.com/github/enricolucia/gulp-angular-dep/badges/gpa.svg)](https://codeclimate.com/github/enricolucia/gulp-angular-dep) [![npm version](https://badge.fury.io/js/gulp-angular-dep.svg)](http://badge.fury.io/js/gulp-angular-dep)
 > Configurable dynamic install angular Bower dependencies.
 
 # DEPRECATED
