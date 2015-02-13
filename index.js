@@ -36,7 +36,7 @@ module.exports = function (opts) {
   }
 
   var builder = function(){
-    gutil.log(gutil.colors.bgRed("Deprecated! Use gulp-framework-dep instead for improvements and fixes."),
+    gutil.log(gutil.colors.bgRed("\"gulp-angular-dep\" is deprecated! Use gulp-framework-dep instead for improvements and fixes."),
               gutil.colors.green("\n\"npm i gulp-framework-dep\""));
     gutil.log("Using cwd: ", opts.cwd);
     gutil.log("Using bower dir: ", opts.directory);
